@@ -1,0 +1,34 @@
+.side{
+    background-color: rgba(17, 10, 52, 0.8);
+    height: 100rem;
+    width: 20rem;
+    border: 0.35rem black solid;
+
+    z-index: 20;
+
+    position: fixed;
+    
+}
+.side .side_top{
+    background-color: rgba(195, 91, 209, 0.6);
+    color: white;
+    height: 3rem;
+    width: 100%;
+    font-size: 2rem;
+
+    margin: 0.5rem 0 2rem 0;
+    text-align: center;
+}
+.side .side_content{
+    background-color: rgba(129, 61, 138, 0.6);
+    color: white;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.side .side_content a{
+    text-decoration: none;
+    color: white;
+}
