@@ -1,0 +1,45 @@
+/*顶部跟踪栏 top*/
+        .top{
+            position: fixed;
+            width: 100rem;
+            height: 4rem;
+            background-color: rgba(17, 10, 52, 0.8);
+            z-index: 20;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .top h1{
+            margin: 0;
+            font-size: 2rem;
+            line-height: 4rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.98);
+        }
+        .top div{
+            margin: 0 5rem;
+            font-size: 1.7rem;
+            line-height: 4rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.98);
+        }
+        .top div div a{
+            text-decoration: none;
+            color: white;
+        }
+        .top .block002{
+            background-color: hsla(300, 76%, 72%, 0.5);
+            border: 0.35rem solid black;
+            width: 12rem;
+            height: 35rem;
+            margin: 0 0 0 0;
+
+            overflow: hidden;
+        }
+        .top .block002 a{
+            text-decoration: none;
+            color: brown;
+            width: 100%;
+            margin: 0 0 0 0;
+        }
